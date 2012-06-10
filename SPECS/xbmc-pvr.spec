@@ -101,6 +101,7 @@ BuildRequires: bluez-libs-devel
 BuildRequires: cwiid-devel
 BuildRequires: tinyxml-devel
 BuildRequires: libva-devel
+BuildRequires: lame-devel
 
 # nfs-utils-lib-devel package currently broken
 #BuildRequires: nfs-utils-lib-devel
