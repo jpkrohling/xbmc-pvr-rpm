@@ -7,5 +7,5 @@ This is basically an environment to build a XBMC RPM based on the fork from opde
 
 ## Instructions
 
- * Execute the shell script on the SOURCES directory. This will grab the sources and build a tar.gz file, that will be used by the build.
- * Execute "rpmbuild -ba xbmc-pvr.spec" on the SPECS directory. If everything goes well, you'll find a RPM package in the RPMS directory.
+ * Execute the shell script on the `SOURCES` directory. This will grab the sources and build a tar.gz file, that will be used by the build.
+ * Execute `$ rpmbuild -ba xbmc-pvr.spec` on the `SPECS` directory. If everything goes well, you'll find a RPM package in the `RPMS` directory.
