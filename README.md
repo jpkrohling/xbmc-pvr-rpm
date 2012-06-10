@@ -1,7 +1,7 @@
 xbmc-pvr-rpm
 ============
 
-# RPM builders for XBMC from opdenkamp/xbmc
+# RPM builders for XBMC from [opdenkamp/xbmc](https://github.com/opdenkamp/xbmc)
 
 This is basically an environment to build a XBMC RPM based on the fork from opdenkamp, which includes the PVR Add-on. This was mostly based on the RPM Fusion's spec files for XBMC, but it differs substantially. Use it at your own risk. I hope this will be obsolete soon, as I expect opdenkamp's features to be integrated into the main XBMC's repo soon, which means that it should be picked up by RPM Fusion.
 
