@@ -1,2 +1,5 @@
 BUILD/xbmc-pvr-*
 SOURCES/xbmc-pvr-*
+RPMS/x86_64/
+SRPMS/xbmc-*
+
