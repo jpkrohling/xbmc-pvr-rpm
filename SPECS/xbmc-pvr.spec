@@ -8,15 +8,6 @@ Release: 1%{?dist}
 URL: http://www.xbmc.org/
 
 Source0: %{name}-%{DIRVERSION}-patched.tar.gz
-# xbmc contains code that we cannot ship, as well as redundant private
-# copies of upstream libraries that we already distribute.  Therefore
-# we use this script to remove the code before shipping it.
-# Download the upstream tarball from:
-# http://downloads.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
-# and invoke this script while in the directory where the tarball is located:
-# ./xbmc-generate-tarball-xz.sh <version>
-# where <version> is the particular version being used
-Source1: xbmc-generate-tarball-xz.sh
 
 ExcludeArch: ppc64
 Buildroot: %{_tmppath}/%{name}-%{DIRVERSION}
@@ -198,7 +189,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
-%doc copying.txt keymapping.txt LICENSE.GPL README.linux
+%doc copying.txt keymapping.txt LICENSE.GPL docs/README.linux
 %{_bindir}/xbmc
 %{_bindir}/xbmc-standalone
 %{_libdir}/xbmc
