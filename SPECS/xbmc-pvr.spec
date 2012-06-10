@@ -4,16 +4,17 @@
 
 Name: xbmc-pvr
 Version: 12.0
-Release: 1%{?dist}
+Release: 2%{?dist}
 URL: http://www.xbmc.org/
 
 Source0: %{name}-%{DIRVERSION}-patched.tar.gz
 
 ExcludeArch: ppc64
 Buildroot: %{_tmppath}/%{name}-%{DIRVERSION}
-Summary: Media center
+Summary: Media center with the PVR Add-on from opdenkamp.
 License: GPLv2+ and GPLv3+
 Group: Applications/Multimedia
+Conflicts: xbmc
 BuildRequires: desktop-file-utils
 BuildRequires: dbus-devel
 BuildRequires: SDL-devel
