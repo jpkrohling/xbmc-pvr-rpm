@@ -99,6 +99,7 @@ BuildRequires: libbluray-devel
 BuildRequires: yajl-devel
 BuildRequires: bluez-libs-devel
 BuildRequires: cwiid-devel
+BuildRequires: tinyxml-devel
 
 # nfs-utils-lib-devel package currently broken
 #BuildRequires: nfs-utils-lib-devel
