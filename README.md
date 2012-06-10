@@ -26,4 +26,4 @@ To build the RPM, you'll need to install these dependencies:
     libtiff-devel libdvdread-devel ffmpeg-devel faad2-devel pulseaudio-libs-devel \
     libdca-devel libass-devel hdhomerun-devel libcrystalhd-devel libmodplug-devel \ 
     libmicrohttpd-devel expat-devel librtmp-devel libbluray-devel yajl-devel  \
-    bluez-libs-devel cwiid-devel python-imaging  tinyxml-devel
+    bluez-libs-devel cwiid-devel python-imaging  tinyxml-devel libva-devel
