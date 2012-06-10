@@ -13,3 +13,17 @@ This is basically an environment to build a XBMC RPM based on the fork from opde
 If you never built an RPM before, take a look at [the official Fedora wiki page](http://fedoraproject.org/wiki/How_to_create_an_RPM_package), but basically, you'll need this:
 
     $ sudo yum install @development-tools fedora-packager rpmdevtools
+
+To build the RPM, you'll need to install these dependencies:
+
+    $ sudo yum install dbus-devel SDL-devel SDL_image-devel SDL_mixer-devel \
+    fontconfig-devel fribidi-devel glew-devel libjasper-devel libjpeg-devel \
+    libogg-devel libpng-devel e2fsprogs-devel libvorbis-devel lzo-devel pcre-devel \
+    tre-devel boost-devel bzip2-devel freetype-devel libXinerama-devel jasper-devel \
+    enca-devel cmake gperf nasm libXmu-devel curl-devel libcdio-devel libmad-devel \
+    libsamplerate-devel libsmbclient-devel libmms-devel libXtst-devel libvdpau-devel \
+    python-devel wavpack-devel a52dec-devel libmpeg2-devel libmpcdec-devel flac-devel \ 
+    libtiff-devel libdvdread-devel ffmpeg-devel faad2-devel pulseaudio-libs-devel \
+    libdca-devel libass-devel hdhomerun-devel libcrystalhd-devel libmodplug-devel \ 
+    libmicrohttpd-devel expat-devel librtmp-devel libbluray-devel yajl-devel  \
+    bluez-libs-devel cwiid-devel python-imaging 
