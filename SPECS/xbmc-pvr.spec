@@ -1,10 +1,10 @@
-%global PRERELEASE ALPHA3
+%global PRERELEASE ALPHA4
 # use below for pre-release
 %global DIRVERSION %{version}-%{PRERELEASE}
 
 Name: xbmc-pvr
 Version: 12.0
-Release: 2%{?dist}
+Release: 3%{?dist}
 URL: http://www.xbmc.org/
 
 Source0: %{name}-%{DIRVERSION}-patched.tar.gz
