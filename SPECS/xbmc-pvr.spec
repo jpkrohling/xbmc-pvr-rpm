@@ -1,4 +1,4 @@
-%global PRERELEASE ALPHA4
+%global PRERELEASE ALPHA5
 # use below for pre-release
 %global DIRVERSION %{version}-%{PRERELEASE}
 
